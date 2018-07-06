@@ -1,0 +1,20 @@
+# cutlery json
+
+cutlery = {
+    "spoons":{
+      1:"soup_spoon",
+      2:"tea_spoon",
+      3:"slotted"
+    },
+    "knives":{
+      1:"butcher",
+      2:"paring",
+      3:"table",
+    },
+    "forks":{
+       1:"Salad",
+       2:"Pronged"
+    }
+
+
+}
