@@ -4,7 +4,8 @@ cutlery = {
     "spoons":{
       1:"soup_spoon",
       2:"tea_spoon",
-      3:"slotted"
+      3:"slotted",
+      4:"ladle"
     },
     "knives":{
       1:"butcher",
@@ -13,8 +14,8 @@ cutlery = {
     },
     "forks":{
        1:"Salad",
-       2:"Pronged"
-       3:"Salad_Tong"
+       2:"Pronged",
+       3:"Salad_Tong",
     }
 
 
