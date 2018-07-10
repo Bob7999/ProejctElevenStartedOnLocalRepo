@@ -16,6 +16,10 @@ cutlery = {
        1:"Salad",
        2:"Pronged",
        3:"Salad_Tong",
+    },
+    "hybrid_utensils":{
+        1:"spork",
+        2:"knife-foon"
     }
 
 
