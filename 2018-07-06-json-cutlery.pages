@@ -19,7 +19,8 @@ cutlery = {
     },
     "hybrid_utensils":{
         1:"spork",
-        2:"knife-foon-child"
+        2:"knife-foon",
+        3:"fork-knife"
     }
 
 
