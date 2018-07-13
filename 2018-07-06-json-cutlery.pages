@@ -25,11 +25,25 @@ cutlery = {
             "peas",
             "mashed_potatoes",
             "carrots",
-        ]
+        ],
     },
     "Period-Utensils":[
         "Georgian_Spoon", "Georgian_Knife",
         "Georgian_Fork", "Horse_Knife"
-        ]
-
+        ],
+    "Later_Period_Utensils":{
+        "Victorian":{
+                "Combined_Veterinarian_Instrument":{
+                1:"Sheep_Appendectomy_Spoon",
+                2:"Horse_Gall_Bladder_Scalpel_Knife",
+                "Chicken_Eye_Scooper":{
+                    1:"With_Acid",
+                    2:"With_Spikes",
+                    }
+                    
+                }
+        
+        
+        }
+    }  
 }
