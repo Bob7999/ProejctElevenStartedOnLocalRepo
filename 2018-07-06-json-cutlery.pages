@@ -26,7 +26,10 @@ cutlery = {
             "mashed_potatoes",
             "carrots",
         ]
-    }
-
+    },
+    "Period-Utensils":[
+        "Georgian_Spoon", "Georgian_Knife",
+        "Georgian_Fork", "Horse_Knife"
+        ]
 
 }
