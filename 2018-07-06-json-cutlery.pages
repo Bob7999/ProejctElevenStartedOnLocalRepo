@@ -39,11 +39,16 @@ cutlery = {
                 "Chicken_Eye_Scooper":{
                     1:"With_Acid",
                     2:"With_Spikes",
+                    "Transmission":{
+                        1:"manual",
+                        2:"auto"}
+                        
+                    }
+                    }
                     }
                     
                 }
         
         
         }
-    }  
-}
+        
