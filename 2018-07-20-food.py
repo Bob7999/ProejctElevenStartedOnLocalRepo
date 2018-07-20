@@ -34,7 +34,24 @@ food = {
             "size":"four_feet",
             "weight":{
                 "dry":"nineteen",
-                "weight":"twenty-five"
+                "weight":"twenty-five",
+                    "twenty-five":{
+                        "color":1,
+                        "redness":{
+                            "intensity":"high",
+                            "hue":"red",
+                            "brightness":"high",
+                        },
+                        
+                    },     
+                    "twenty-six":{                   
+                        "color":2,
+                        "greeness":{
+                            "intensity":"high",
+                            "hue":"green",
+                            "brightness":"high",
+                        }
+                }
             }
 
         }
