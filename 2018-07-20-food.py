@@ -32,7 +32,11 @@ food = {
         },
         "cod":{
             "size":"four_feet",
-            "weight":"forty-five"
+            "weight":{
+                "dry":"nineteen",
+                "weight":"twenty-five"
+            }
+
         }
     }
 
