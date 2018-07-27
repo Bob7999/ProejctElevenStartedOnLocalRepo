@@ -12,7 +12,8 @@ plants = {
             "firs":{
                 "types":[
                     "douglas",
-                    "blue"
+                    "blue",
+                    "Canadian"
                 ]
             }
         
