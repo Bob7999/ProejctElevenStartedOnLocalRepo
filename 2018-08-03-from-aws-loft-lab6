@@ -1,0 +1,41 @@
+# from the AWS Loft 8/2/2018
+# it has one dictionary item, "function_score," that contains
+# one dictionary, "query," one list, "functions", ane one more dictionary
+# called "sript score"
+
+GET movies/_search
+{
+"query": {
+              "function_score": {
+
+                      "query": {
+                           "match": {
+                           "title": "star man"
+                            }
+                        },
+
+                        "functions": [
+                            {
+                            "exp":{
+                                "year":{
+                                "origin": "1977",  
+                                "scale": "1d",
+                                "decay": 0.5
+                                 }
+                               }  
+                            },
+
+
+                            {
+                            "script_score": {
+                                "script": "_score * doc['rating'].value / 100"
+                                 }
+                            }
+                        ],
+  
+
+                       "score_mode": "replace"
+              }
+
+        }
+}
