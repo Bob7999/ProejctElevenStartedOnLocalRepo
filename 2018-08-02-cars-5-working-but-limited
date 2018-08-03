@@ -1,0 +1,46 @@
+
+computers2 = {
+    "laptop":{
+        "dell":{
+            "dimension":{
+                "5100":{
+                    "diskless":{
+                        "components":[
+                            "screen:15inches",
+                            "keyboard:QWERTY",
+                            {"dvd":
+                               {"region":"malaysia"}  
+                            }     
+                           ],
+                    },
+
+#wrong:
+#components":[
+#                            "screen:15inches",
+#                            "dvd":{
+#                                "format:R-W",    #using list syntax for a dictionary item :-(
+#                                "format2:R+W",
+#                                },
+#                            "keyboard:QWERTY",       
+#                           ],
+
+
+
+
+
+                    "entertainment":{
+                        "components":[
+                            "screen:144inches",
+                            "dvd:from_outerspace"
+                        ]    
+                    }
+                    
+                    }
+
+                }
+            }
+        }
+
+    }
+
+
