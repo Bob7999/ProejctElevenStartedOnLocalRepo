@@ -1,7 +1,8 @@
 # from the AWS Loft 8/2/2018
 # it has one dictionary item, "function_score," that contains
-# one dictionary, "query," one list, "functions", ane one more dictionary
-# called "sript score"
+# one dictionary, "query," one list, "functions", 
+# contains "exp" and "script_score", and one more dictionary
+# called "score mode"
 
 GET movies/_search
 {
