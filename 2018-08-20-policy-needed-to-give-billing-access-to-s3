@@ -1,0 +1,39 @@
+#this is the policy needed to give the billing report access
+#it needs to the s3 bucket I created to hold its reports
+#however, it doesnt work if I use my own account number
+#most peculiar
+
+#this is from the well-architected session on 8/13/2018
+#it is, in fact, the script suggested by the dialogs
+#that create the billing report.  First time I tried it
+#in early august it didn't work even with the suggested
+#script.  In this case, I merely substituted the name
+#of the bucket I created.
+
+{
+    "Version": "2008-10-17",
+    "Id": "Policy1335892530063",
+    "Statement": [
+        {
+            "Sid": "Stmt1335892150622",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::321576662713:root"
+            },
+            "Action": [
+                "s3:GetBucketAcl",
+                "s3:GetBucketPolicy"
+            ],
+            "Resource": "arn:aws:s3:::bobs-billing-bucket"
+        },
+        {
+            "Sid": "Stmt1335892526596",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::321576662713:root"
+            },
+            "Action": "s3:PutObject",
+            "Resource": "arn:aws:s3:::bobs-billing-bucket/*"
+        }
+    ]
+}
