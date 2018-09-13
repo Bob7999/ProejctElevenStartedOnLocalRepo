@@ -10,6 +10,10 @@
 #script.  In this case, I merely substituted the name
 #of the bucket I created.
 
+#The curious thing is, when it finally did work,
+#the thing that made it work was the leaving in place
+#of what appeared to be a strange account number.
+
 {
     "Version": "2008-10-17",
     "Id": "Policy1335892530063",

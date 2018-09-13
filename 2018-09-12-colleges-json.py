@@ -22,8 +22,17 @@ colleges = {
             "female":{
                 "left-handed":3500,
                 "right-handed":1500,
-            }
-        },
+                "hated_because_of_nose_shape":[
+                         "julia",
+                         "rose",
+                         "amanda",
+                    ],
+                "hated_because_of_favorite_flavor":[
+                        "amy",
+                        "brandy",
+                        "susan",
+                    ],
+            },
         "departments":{
             "whale_song":150,
             "chinese_checkers":1000,
