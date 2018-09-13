@@ -23,15 +23,15 @@ colleges = {
                 "left-handed":3500,
                 "right-handed":1500,
                 "those_who_are_hated":{
-                "hated_because_of_nose_shape":[    #key 1
-                         "julia",                  #item1
-                         "rose",
-                         "amanda",
+                    "hated_because_of_nose_shape":[    #key 1
+                             "julia",                  #item1
+                             "rose",
+                             "amanda",
                     ],
-                "hated_because_of_favorite_flavor":[      #key2
-                        "amy",                            #item2
-                        "brandy",
-                        "susan",
+                    "hated_because_of_favorite_flavor":[      #key2
+                            "amy",                            #item2
+                            "brandy",
+                            "susan",
                     ],
                 }
             },
