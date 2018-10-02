@@ -1,0 +1,12 @@
+IPs = [1,2,2,3,3,3,4,5,5,5,5,5,4,4,4]
+d ={}
+
+for IP in IPs:
+   if IP not in d:
+      d[IP]=0
+   d[IP]+=1
+
+# if statement can only run once for each letter
+# the last line has to run each time an IP is considered
+# therefore, it has to be on the same level of identation
+# as the if statment.
