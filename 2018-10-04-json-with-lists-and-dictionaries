@@ -1,0 +1,32 @@
+#json consisting of dictionaries
+#that use lists as values
+
+
+Tires = {
+    "large_diameter":{
+        "Terex_Titan":"Partnumber 123456",
+        "FMC_Giant":"Partnumber 123457",
+        "Big_Bertha":"Partnumber 123458"
+         },
+    
+    "Small_Diameter":[
+        "Fiat_Repair_Diaster",
+        "Mini_Cooper"
+    ]
+  
+}
+
+
+#json-consisting-of-a-list-of-dictionaries
+
+Appliances = [
+
+        {"washing_machine":"avacado_green",
+        "refrigerator":"avacado_green",
+        "dish_washer":"pot_smoke_green"
+        },
+
+        {"airplane_lavatory":"smoke_detector",
+        "plymouth_fury":"new_car_smell"}
+
+]
