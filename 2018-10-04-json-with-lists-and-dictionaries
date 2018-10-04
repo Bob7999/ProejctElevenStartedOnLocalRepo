@@ -1,6 +1,11 @@
 #json consisting of dictionaries
 #that use lists as values
 
+#I cannot insert a list
+#between "large_diameter" and "Small_Diameter",
+#because Python would see it as the
+#first term in a dictionary, which a list
+#cannot be.
 
 Tires = {
     "large_diameter":{
