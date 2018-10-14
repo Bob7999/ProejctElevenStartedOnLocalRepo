@@ -19,7 +19,8 @@ computers2 = {
                                 }
                             },
                         ]
-                            
+#a dictionary can be a list member, but a list can't be a 
+# dictionary key.   
                         },
                     "entertainment":{
                         "components":[
@@ -30,6 +31,7 @@ computers2 = {
                     }
 
                 }
+                
             }
         }
  }
