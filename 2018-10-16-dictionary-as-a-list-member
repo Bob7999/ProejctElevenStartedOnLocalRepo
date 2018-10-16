@@ -1,0 +1,20 @@
+refrigerators = {
+
+    "Kenmore":{
+        1:"AA",
+        2:"BB",
+        3:"CC"
+    },
+
+    "General Electric":{
+        1:"Tub O' Ice",
+        2:"SX55 Super Cooler",
+        3:[          
+                "Chrome",
+                "Yodels",
+                "Do It",
+                "Right",
+                {"Car":"Plymouth"} 
+        ]
+        }
+    }
