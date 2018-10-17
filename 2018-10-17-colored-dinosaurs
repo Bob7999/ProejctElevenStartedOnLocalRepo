@@ -1,0 +1,25 @@
+dinosaurs = {
+
+    "Colored":{
+        "TRex":"Pink",
+        "Brontosaurus":"Magenta",
+        "Brunschweigosaurus":"Eggplant"
+    },
+    "Monochrome":{
+        "Allowsaurus":"Gray 56",
+        "Ankylosaurus":"Gray 98",
+        "Diplodocus":"Gray 23",    
+    },
+    "Sparkly":{
+        "Cute-Fifties-Roller-Skating-Drive-In-Waitress":{
+            "Attire":[
+                "White Skates",
+                "White Skirt",
+                "White Teeth",
+                "Blonde Hair",
+                "White Hair Would Make her a Teenage Witch"
+            ]
+        }
+        }
+    }
+}
