@@ -1,16 +1,22 @@
-dinosaurs = {
+dinosaurs = [
 
-    "Colored":{
+    {"Colored":{
         "TRex":"Pink",
         "Brontosaurus":"Magenta",
         "Brunschweigosaurus":"Eggplant"
+    }
     },
-    "Monochrome":{
+
+    {"Monochrome":{
         "Allowsaurus":"Gray 56",
+        "Denysaurus":"Gray 88",
         "Ankylosaurus":"Gray 98",
         "Diplodocus":"Gray 23",    
+    }
     },
-    "Sparkly":{
+
+
+    {"Sparkly":{
         "Cute-Fifties-Roller-Skating-Drive-In-Waitress":{
             "Attire":[
                 "White Skates",
@@ -22,4 +28,5 @@ dinosaurs = {
         }
         }
     }
-}
+
+]
