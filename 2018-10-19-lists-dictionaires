@@ -1,0 +1,16 @@
+#a list cannot be a dictionary key -- unhashable
+#while there is such a thing as a list of dictionaries,
+#
+
+clothes = {
+    "coats":{
+        "jackets":[
+            "parkas":{
+                "down":"landsend",
+                "fibre":"sears"
+            },
+            "windbreakers",
+            "anoraks"
+        ]
+        }
+    }
