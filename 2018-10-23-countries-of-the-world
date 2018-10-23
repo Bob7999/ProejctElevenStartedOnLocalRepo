@@ -1,0 +1,39 @@
+Continents = {
+    "Europe":{
+        "Countries":{
+            "Big_Countries":[
+                "France",
+                "Spain",
+                "Germany"
+            ],
+            "Teeny_Countries":[
+                "Luxembourg",
+                "Belgium",
+                "Vatican_City"
+
+            ]
+        }
+    },
+
+    "North_America":{
+        "Countries":[
+
+        ]
+
+    },
+
+    "South_America":{
+        "Countries":[
+
+        ]
+
+    },
+
+    "Africa":{
+        "Countries":[
+
+        ]
+
+    },
+
+}
