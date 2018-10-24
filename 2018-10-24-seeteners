@@ -1,0 +1,24 @@
+sweeteners = {
+    "aspartame":{
+        "fine_grained":{
+            "red_color":{
+                1:"natural",
+                2:"artificial"
+            }
+        }
+    },
+    "cylamates":{
+        "intense":{
+            1:"sub_oxidized",
+            2:"plain"
+        }
+    },
+    "saccharin":{
+        "pink_package":[
+            "48_Count",
+            "32_Count",
+            "16_Count"
+        ]
+    }
+}
+
