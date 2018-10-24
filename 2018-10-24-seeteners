@@ -7,7 +7,7 @@ sweeteners = {
             }
         }
     },
-    "cylamates":{
+    "cyclamates":{
         "intense":{
             1:"sub_oxidized",
             2:"plain"
@@ -19,6 +19,15 @@ sweeteners = {
             "32_Count",
             "16_Count"
         ]
+    },
+    "whale_blubber_based":{
+        "baleen":{
+            "long-fish":{
+                "arctic":{
+                    "snub_nosed":"migratory"
+                }
+            }
+        }
     }
 }
 
