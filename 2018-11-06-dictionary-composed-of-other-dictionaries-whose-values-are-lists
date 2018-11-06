@@ -1,0 +1,19 @@
+#forms of literature
+#this is a dictionary
+#consisting of two dictionaries
+#whose values are lists
+
+lit = {
+    "romance":[
+        {"Bronte":"Jane_Eyre"},
+        {"Austen":"Pride_and_Prejudice"},
+        {"George_Sand":"Fred's_Backyard"},
+
+    ],
+    "horror":[
+        {"Shelley":"Frankenstein"},
+        {"Stoker":"Dracula"}
+    ]
+
+
+}
