@@ -1,0 +1,33 @@
+#A json structure consisting of
+# a list of dictionaries
+
+stuff = {
+
+    [
+        {"transportation":"train"},
+        {"water_supply":"pipes"},
+        {"wifi":"public"    }
+    ],
+
+    [
+         {"moderation":"to be avoided"},
+         {"excess":"nothing_succeeds_like_it"},
+         {"hellblau":{
+             "flowers":{
+                 "crocus":{
+                     "color":[
+                         "red",
+                         "green"
+                         "sparkly_silver"
+                     ]
+            
+                     }
+                 }
+             }
+         }
+
+
+    ]
+
+
+}
