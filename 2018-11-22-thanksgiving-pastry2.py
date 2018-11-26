@@ -25,6 +25,15 @@ pastries  = {
          ]
 
 
+    },
+    "overall_mouth_feel":{
+        "crunchy":{
+            "fine_crunch":{
+                "source_of_crunch":{
+                    "fire":"hightemp"
+                }
+            }
+    }
     }
 }
     
