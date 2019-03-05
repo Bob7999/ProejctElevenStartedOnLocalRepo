@@ -1,0 +1,32 @@
+sodas = {
+        "version":"2012-10-17",
+        "statement":[
+            {
+            "gingerale":{
+                "bubbliness":"very",
+                "intensity":"very",
+                "head":"thick"
+            }
+            },
+            {
+            "birchbeer":{
+                "bubbliness":"very",
+                "intensity":"very",
+                "head":"thick"
+
+            }
+            },
+
+            "sasparilla":{
+                "bubbliness":"very",
+                "intensity":"very",
+                "head":"thick"
+            },
+
+        ],
+        
+        
+}
+
+å
+
