@@ -4,26 +4,30 @@ shoe = {
     
     "Version":"10.2.2",
     "Statement":[
-        "boots":{
+    #if you're going to use a nested dictionary in
+    #a list, you MUST enclose it in its own
+    #set of brackets.
+        {"boots":{
 
             "military":{
-                "durability":{
-                    "low":"worthless",
-                    "high":"too_costly"
-                },
-                "color":{
+                "infantry":{
+                    "sargent":"lightweight",
+                    "grunt":"heavyduty"
+                   
+                }
+            }
+            },
+                #The extra curly brace is there because
+                #the nested dictionary demands it.
+            "color":{
                      "brown":"hard_to_see",
                      "red":"machine_gun_bait"
                 },
-               "fashion":{
-                "comfort":"loafers"
-                }
+            "fashion":{
+                "comfort":"loafer-boots"
+                },
             }
-        }
-            
-
-        
-    ]
+        ]   
 }
 
 
