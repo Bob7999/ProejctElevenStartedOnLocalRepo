@@ -3,17 +3,20 @@
 shoe = {
     "Version":"10.2.2",
     "Statement":[
-        
+        {
         "boots":{
             "tough":1
             }
         },
-        "dancing_shoes":{
+        {"dancing_shoes":{
                 "comfortable":"ambassador_heel"
+        }
         },
-        "construction":{
+        {"construction":{
             "tough":"carhartt"
         },
-    ]
         }
+    ]
+}
+
 

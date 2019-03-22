@@ -1,0 +1,19 @@
+#list of dictonaries
+
+My_List_of_JSON_Dix = [
+
+        
+            "aloe_jelly","sweet",
+        
+            "substitute_sweetner","termite_exudate",
+        
+           "number_of_lost_mittens",
+           {"months":{
+               "jan":1,
+               "feb":2
+           }
+           }
+
+]
+
+#This syntax works.  You can never have too many curly braces
