@@ -1,0 +1,18 @@
+#list of dictonaries
+
+My_List_of_JSON_Dix = {
+
+        
+            "aloe_jelly":"sweet",
+        
+            "substitute_sweetner":"termite_exudate",
+        
+           "number_of_lost_mittens":{
+               "jan":1,
+               "feb":2
+           }
+        
+
+
+
+}
