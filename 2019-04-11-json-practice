@@ -1,0 +1,38 @@
+test_policy = {
+   "Version": "2012-10-17",
+   "Id": "Allow public access",
+   "Statement": [
+     {
+       "Sid": "Allow access to the bucket without that annoying no formatting information error.",
+       "Effect": "Allow",
+       "Principal": "*",
+       "Action": "s3:GetObject",
+       "Resource": "arn:aws:s3:::2017-04-14-richards-bucket-1/",
+       },
+   ]
+ }
+
+candy = {
+   "jelly_beans":{
+     "color":["red", "green", "blue"],
+     "sweetness":["mild", "overpowering"]
+   },
+   "Chocolate_bars":{
+     "maker":{
+       "Mars":{
+         "Form":{
+           "round":["raisinets", "milk_duds","m&m's"],
+           "flat":["mounds", "snickers"]
+         }
+       },
+       "Nestle":{
+          "Form":{
+            "Flat":["$100,000 bar", "crunch"]
+          }
+       }
+
+
+     }
+     }
+}
+ 
