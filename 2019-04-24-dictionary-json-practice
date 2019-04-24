@@ -1,0 +1,15 @@
+statuary = {
+
+    "renaissance":[
+        {
+        "pieta":"Michaelangelo"
+        },
+        {
+        "st theresa":"bernini"
+        },
+        {
+        "quattro fontaine":"borominni"
+        }
+
+    ]
+}
