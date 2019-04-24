@@ -1,3 +1,4 @@
+#showing two syntaxes for the nested dictionary
 statuary = {
 
     "renaissance":[
@@ -5,10 +6,12 @@ statuary = {
         "pieta":"Michaelangelo"
         },
         {
-        "st theresa":"bernini"
+        "st theresa":{
+            "bernini":"very_expensive"
+        }
         },
         {
-        "quattro fontaine":"borominni"
+        "quattro fontaine":{"borominni":"second_phase"}
         }
 
     ]
